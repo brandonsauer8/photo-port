@@ -12,7 +12,7 @@ describe('About component', () => {
     });
 
     //second test
-    it('matchces snapshot DOM node structure', () => {
+    it('matches snapshot DOM node structure', () => {
         //about
         const { asFragment } = render(<About />);
         expect(asFragment()).toMatchSnapshot();
